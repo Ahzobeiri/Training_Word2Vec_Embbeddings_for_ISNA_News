@@ -3,7 +3,7 @@ In this repository, I trained the embedding of words (Word2Vec representation) t
 The dataset is an open-source corpus that can be downloaded from the address (https://sourceforge.net/projects/persica/files/persica.csv/download). In the Notebook code I provided, I wrote step-by-step procedures that should be done to train word vectors (Word2Vec). These steps are as follows:
 The body of this Notebook code which was written in the Colab environment, consists of the following 7 headings:
 
-Step 1️⃣: In the first step, by defining the functions "read_isna_content()" and "read_isna_content_to_list()", the text content of all corpus news has been read, and a list of all ISNA corpus news is returned as the output of the function.✔
+Step 1️⃣: In the first step, by defining the functions "read_isna_content()" and "read_isna_content_to_list()", the text content of all corpus news has been read, and a list of all ISNA corpus news is returned as the output of the function.🕐
 Step 2: In the 
 
 
