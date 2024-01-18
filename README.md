@@ -1,7 +1,6 @@
 # Training_Word2Vec_Embbeddings_for_ISNA_News
-In this repository, I trained the embedding of words (Word2Vec embeddings) using the ISNA news corpus, "PERSICA". The "PERSICA" corpus includes news ID, title, text, date, publication time, and the news label. It can be used for several NLP tasks like news classification, topic discovery and classification, category classification, and many more procedures.
-The dataset is an open-source corpus that can be downloaded from the address (https://sourceforge.net/projects/persica/files/persica.csv/download).
-In the Notebook code I provided, I wrote the procedures that should be done to train word vectors (Word2Vec), step by step as follows:
+In this repository, I trained the embedding of words (Word2Vec representation) to evaluate the similarity of word embeddings and get an intuition about Persian close-meaning words, using the ISNA news corpus, "PERSICA", as the dataset. The "PERSICA" corpus includes news ID, title, text, date, publication time, and the news label. It can be used for several NLP tasks like news classification, topic discovery and classification, category classification, and many more procedures.
+The dataset is an open-source corpus that can be downloaded from the address (https://sourceforge.net/projects/persica/files/persica.csv/download). In the Notebook code I provided, I wrote step-by-step procedures that should be done to train word vectors (Word2Vec). These steps are as follows:
 The body of this Notebook code which was written in the Colab environment, consists of the following 7 headings:
 ![Uploading image.png…]()
 Step1: In the first step, 
