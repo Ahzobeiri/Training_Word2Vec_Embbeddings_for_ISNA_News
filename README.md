@@ -9,7 +9,14 @@ Step 2️⃣: In the second step,  by defining the function called "normalize", 
 
 Step 3️⃣ : Next, in the 3rd step, I divided the whole corpus body into its constituent sentences. For identification of the sentence boundary, I used the "re.split" method with punctuation marks such as ":.;?!". For this step, I defined a function called segment_corpus_. The input of this function is a string (that is, the whole corpus as a string) and its output is a list of sentences of the body.🕒
 
-Step 4️⃣ : In the 4th step, I divided the whole corpus body into its constituent sentences. For identification of the sentence boundary, I used the "re.split" method with punctuation marks such as ":.;?!". For this step, I defined a function called segment_corpus_. The input of this function is a string (that is, the whole corpus as a string) and its output is a list of sentences of the body.🕓
+Step 4️⃣ : In the 4th step, by defining a function named prepare_data, I created a list of lists containing words of each divided sentence in the previous step.🕔
+
+step 5️⃣ : In this step, I trained a Skipgram word embedding model, using the Gensim library.🕔
+
+step 6️⃣ : After training the Word2Vec embedding, I evaluate the performance of embedding models by finding the most similar words to the example words.🕕
+
+step 7️⃣ : I also found the average cosine similarity for antonym words in the 7th step. 🕖
+
 
 
 
